@@ -1,0 +1,15 @@
+git clone < this is used to clone a new project to your local working directory
+ 
+git status < this is used to display your status if your code has been modified or not. it display the code status
+
+git pull < this fetches any new changes from the remote online repo and merge it to your local repository before you push
+
+git add . < this add changes made to the code to the staging area before commit
+
+git branch < this display your remote branch 
+
+git commit -m "commit message" < this add a commit message before you push your code
+
+git git push < this push your changes to the remote repo
+
+these are just basic git command pls add to it 

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>DevOps Student Portfolio</h1>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="profile">
+                <img src="profile.png" alt="Profile Picture" class="profile-picture">
+                <p>Hi! I am a student currently learning the required skills to become a DevOps engineer. My journey is focused on acquiring knowledge in cloud engineering, utilizing AWS services, and mastering configuration management.</p>
+            </div>
+        </section>
+        <section id="goals">
+            <h2>My Goals</h2>
+            <ul>
+                <li>To become a proficient cloud engineer</li>
+                <li>To effectively utilize AWS services</li>
+                <li>To master configuration management</li>
+                <li>To implement best practices in DevOps</li>
+            </ul>
+        </section>
+        <section id="learning">
+            <h2>Learning Journey</h2>
+            <p>I am currently enrolled in a summer boot camp at <a href="https://techngine.dev">TechNgineers.dev</a>. Through this intensive program, I am gaining hands-on experience and working towards achieving my goals.</p>
+        </section>
+        <section id="future">
+            <h2>Future Plans</h2>
+            <p>After completing this boot camp, I hope to apply my newly acquired skills in a professional setting and continue growing as a DevOps engineer.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 DevOps Student Portfolio</p>
+    </footer>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>This is your first project!</h2>
+            <p>Kindly tell me your name:</p>
+            <input type="text" id="nameInput" placeholder="Enter your name">
+            <button onclick="submitName()">Submit</button>
+        </div>
+    </div>
+    <div id="congratulations" class="congratulations">
+        <h2 id="congratsMessage"></h2>
+        <div id="confetti"></div>
+        <button onclick="closeCongratulations()">Exit</button>
+    </div>
+</body>
+</html>
